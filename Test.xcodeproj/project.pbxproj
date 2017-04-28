@@ -15,6 +15,9 @@
 		B037EAFA1EAE34BD00A1C544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B037EAF81EAE34BD00A1C544 /* LaunchScreen.storyboard */; };
 		B037EB051EAE34BD00A1C544 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B037EB041EAE34BD00A1C544 /* TestTests.m */; };
 		B037EB101EAE34BD00A1C544 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B037EB0F1EAE34BD00A1C544 /* TestUITests.m */; };
+		B037EB1F1EAE360A00A1C544 /* ExcrptMedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B037EB1E1EAE360A00A1C544 /* ExcrptMedViewController.m */; };
+		B0DE96191EB05E8D006E5F14 /* PPNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DE96181EB05E8D006E5F14 /* PPNumberButton.m */; };
+		B0E9F0721EAF679B006252BE /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9F0711EAF679B006252BE /* PopupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B037EB0B1EAE34BD00A1C544 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B037EB0F1EAE34BD00A1C544 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		B037EB111EAE34BD00A1C544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B037EB1D1EAE360A00A1C544 /* ExcrptMedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcrptMedViewController.h; sourceTree = "<group>"; };
+		B037EB1E1EAE360A00A1C544 /* ExcrptMedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcrptMedViewController.m; sourceTree = "<group>"; };
+		B0DE96171EB05E8D006E5F14 /* PPNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNumberButton.h; sourceTree = "<group>"; };
+		B0DE96181EB05E8D006E5F14 /* PPNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNumberButton.m; sourceTree = "<group>"; };
+		B0E9F0701EAF679B006252BE /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		B0E9F0711EAF679B006252BE /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		B037EADE1EAE34BD00A1C544 = {
 			isa = PBXGroup;
 			children = (
+				B0DE96161EB05E8D006E5F14 /* PPNumberButton */,
 				B037EAE91EAE34BD00A1C544 /* Test */,
 				B037EB031EAE34BD00A1C544 /* TestTests */,
 				B037EB0E1EAE34BD00A1C544 /* TestUITests */,
@@ -105,6 +115,10 @@
 				B037EAEE1EAE34BD00A1C544 /* AppDelegate.m */,
 				B037EAF01EAE34BD00A1C544 /* ViewController.h */,
 				B037EAF11EAE34BD00A1C544 /* ViewController.m */,
+				B037EB1D1EAE360A00A1C544 /* ExcrptMedViewController.h */,
+				B037EB1E1EAE360A00A1C544 /* ExcrptMedViewController.m */,
+				B0E9F0701EAF679B006252BE /* PopupViewController.h */,
+				B0E9F0711EAF679B006252BE /* PopupViewController.m */,
 				B037EAF31EAE34BD00A1C544 /* Main.storyboard */,
 				B037EAF61EAE34BD00A1C544 /* Assets.xcassets */,
 				B037EAF81EAE34BD00A1C544 /* LaunchScreen.storyboard */,
@@ -138,6 +152,16 @@
 				B037EB111EAE34BD00A1C544 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		B0DE96161EB05E8D006E5F14 /* PPNumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0DE96171EB05E8D006E5F14 /* PPNumberButton.h */,
+				B0DE96181EB05E8D006E5F14 /* PPNumberButton.m */,
+			);
+			name = PPNumberButton;
+			path = Test/PPNumberButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +299,10 @@
 			files = (
 				B037EAF21EAE34BD00A1C544 /* ViewController.m in Sources */,
 				B037EAEF1EAE34BD00A1C544 /* AppDelegate.m in Sources */,
+				B0DE96191EB05E8D006E5F14 /* PPNumberButton.m in Sources */,
+				B037EB1F1EAE360A00A1C544 /* ExcrptMedViewController.m in Sources */,
 				B037EAEC1EAE34BD00A1C544 /* main.m in Sources */,
+				B0E9F0721EAF679B006252BE /* PopupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +534,7 @@
 				B037EB161EAE34BD00A1C544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B037EB171EAE34BD00A1C544 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +543,7 @@
 				B037EB191EAE34BD00A1C544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B037EB1A1EAE34BD00A1C544 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +552,7 @@
 				B037EB1C1EAE34BD00A1C544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

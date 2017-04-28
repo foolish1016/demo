@@ -2,14 +2,12 @@
 //  AppDelegate.m
 //  Test
 //
-//  Created by shagua on 2017/4/24.
+//  Created by shagua on 2017/4/25.
 //  Copyright © 2017年 shagua. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
