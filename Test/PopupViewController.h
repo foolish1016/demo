@@ -15,13 +15,15 @@
     
     NSInteger   selectDaytime;
     NSInteger   selectTimecount;
+    
+    NSInteger    firstIndex;
 
 }
 @property (strong,nonnull) UIView   *showView;
 @property (strong,nonnull) UIButton *cancelBtn;
 @property (strong,nonnull) UIButton *confirmBtn;
 
-@property (strong,nonnull) UILabel  *labelLine;
+@property (strong,nonnull) UILabel  *titleLabel;
 @property (strong,nonnull) UILabel  *ruleLabel;
 @property (strong,nonnull) UILabel  *ruleVarLable;
 
@@ -35,7 +37,7 @@
 @property (strong,nonnull) UIPickerView *dayPickerView;
 @property (strong,nonnull) UIPickerView *timePickerView;
 
-
+- (void)setUIValue:(NSString *_Nullable)titleString;
 
 
 @end

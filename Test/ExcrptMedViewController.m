@@ -177,6 +177,7 @@
     {
         PopupViewController  *popView = [[PopupViewController alloc]init];
         _popView = popView;
+        _popView.backgroundColor = [UIColor redColor];
         [_popView setTranslatesAutoresizingMaskIntoConstraints:NO];
         [self.view addSubview:_popView];
 
